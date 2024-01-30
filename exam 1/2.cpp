@@ -6,7 +6,6 @@ class Feet
 	ibnt i;
    	void input()
    	{
-	   
      		cout << "enter the feet";
    	    	cin >> feet;
      		cout << "enter the inch";
