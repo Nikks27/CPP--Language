@@ -16,7 +16,7 @@ class Second
 main()
 {
 	int a,n;
-	class Second a[n];
-	
+	Second n;
+	n.input();
 }
 
