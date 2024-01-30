@@ -3,20 +3,32 @@ using namespace std;
 class Feet
 {
    	int feet,inch;
+	ibnt i;
    	void input()
    	{
 	   
-     	cout << "enter the feet";
-   	    cin >> feet;
-     	cout << "enter the inch";
-   	    cin >> inch;
+     		cout << "enter the feet";
+   	    	cin >> feet;
+     		cout << "enter the inch";
+   	  	  cin >> inch;
    	
-   	    feet =feet(inch/12);
-   	    inch=inch/12;
-   }
+	   	for(i=0; i<=inch; i++)
+		{
+			if(i>=inch)
+			{
+				feet++;
+				inch-=12;
+			}
+		}
+   	}
+	void out()
+	{
+		
+	}
 };
 main()
 {
-	class Feet n[1];
-	
+	Feet n1;
+	n1.input;
+	n1.out;
 }
