@@ -23,7 +23,8 @@ class Feet
    	}
 	void out()
 	{
-		
+		cout << "Feet : " << feet;
+		cout << "Inch : " << inch;
 	}
 };
 main()
