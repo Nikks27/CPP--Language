@@ -1,22 +1,23 @@
 #include<iostream>
 using namespace std;
-
-class Second
+class Hoursh
 {
-   int hh,mm,ss,n;
-   
-   void input()
-   {
-   	 mm=(n%3600)/60;
-   	 hh=/60
-   	 
-   } 	
+	public:
+	int hh,mm,ss,a;
+	int time()
+	{
+		cout<<"enter your value:";
+		cin>>s;
+		hh = ss / 3600;
+		ss =(ss % 3600);
+		mm = (ss/60);
+		ss =(ss%60);
+		cout<< hh << " : "<< mm<< " : "<< ss;	
+	}
 };
-
 main()
 {
-	int a,n;
-	Second n;
-	n.input();
+	int i;
+	class Hoursh f1;
+	f1.time();
 }
-
