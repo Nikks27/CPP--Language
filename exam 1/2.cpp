@@ -9,7 +9,7 @@ class Feet
      		cout << "enter the feet";
    	    	cin >> feet;
      		cout << "enter the inch";
-   	  	  cin >> inch;
+   	  	cin >> inch;
    	
 	   	for(i=0; i<=inch; i++)
 		{
