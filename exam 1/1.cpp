@@ -7,7 +7,7 @@ class Hoursh
 	int time()
 	{
 		cout<<"enter your value:";
-		cin>>s;
+		cin>>ss;
 		hh = ss / 3600;
 		ss =(ss % 3600);
 		mm = (ss/60);
@@ -17,7 +17,6 @@ class Hoursh
 };
 main()
 {
-	int i;
 	class Hoursh f1;
 	f1.time();
 }
